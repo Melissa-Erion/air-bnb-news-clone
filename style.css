@@ -1,0 +1,47 @@
+
+
+
+/* navigation */
+ul > li > a {
+    line-height: 20px;
+}
+#navbar {
+    height: 80px;
+    margin-bottom: 20px;
+}
+.primary-color {
+    color: #ff385c;
+}
+ul > li > a:hover {
+    color: black;
+    background-color: rgba(153, 153, 153, 0.1);
+    border-radius: 8px;
+    
+    
+}
+/* dropdown */
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown > .dropdown-toggle:active {
+    pointer-events: none;
+}
+
+#black-background {
+    background: black;
+    height: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+/* articles */
+.news1 {
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 0;
+}
+img{
+    max-width: 100%;
+}
